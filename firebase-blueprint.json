@@ -1,0 +1,43 @@
+{
+  "schema": {
+    "categories": {
+      "id": "string",
+      "name": "string",
+      "icon": "string"
+    },
+    "products": {
+      "id": "string",
+      "categoryId": "string",
+      "brand": "string",
+      "name": "string",
+      "price": "number",
+      "description": "string",
+      "specs": "array",
+      "image": "string",
+      "images": "array",
+      "stock": "number",
+      "favoriteRank": "number",
+      "packingQuantity": "number",
+      "packingUnit": "string"
+    },
+    "settings": {
+      "id": "string",
+      "storeName": "string",
+      "whatsappNumber": "string",
+      "aboutText": "string",
+      "contactText": "string",
+      "logoUrl": "string",
+      "heroMediaUrl": "string",
+      "heroMediaType": "string",
+      "backgroundUrl": "string"
+    },
+    "trends": {
+      "id": "string",
+      "title": "string",
+      "description": "string",
+      "mediaUrl": "string",
+      "mediaType": "string",
+      "date": "string"
+    }
+  }
+}

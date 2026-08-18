@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Basic rules for an MVP store without complex auth:
+    // Anyone can read products, categories, settings, trends.
+    // Admin dashboard will use public writes for now since there's no Firebase Auth set up.
+    // WARNING: In a real app, secure this with Firebase Auth.
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

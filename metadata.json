@@ -1,0 +1,6 @@
+{
+  "name": "Solusi Rumahku",
+  "description": "Toko online peralatan listrik, kerja tehnik, dan perlengkapan rumah tangga.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
